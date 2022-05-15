@@ -5,6 +5,9 @@ ruby '2.6.9'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.0.4'
+gem 'image_processing',           '1.9.3'
+gem 'mini_magick',                '4.9.5'
+gem 'active_storage_validations', '0.8.2'
 # Use sqlite3 as the database for Active Record
 # Use Puma as the app server
 gem 'bcrypt',         '3.1.13'
